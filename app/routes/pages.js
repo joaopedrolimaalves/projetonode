@@ -10,4 +10,8 @@ router.get('/cadastro', function(req, res, next) {
   res.render('cadastro');
 });
 
+router.get('/home', function(req, res, next) {
+  res.render('home');
+});
+
 module.exports = router;
